@@ -1,0 +1,112 @@
+/* Global */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    padding: 45px 0;
+}
+
+/* Navbar Start */
+nav, section.mission {
+    background-color: #F7F9F9;
+}
+
+a.nav-link {
+    color: #4F4F4F;
+    font-size: 17px;
+}
+
+a.nav-link:hover {
+    color: #D9D9D9;
+}
+
+.navbar a.btn {
+    background-color: #4F4F4F;
+    color: #F7F9F9;
+}
+
+.navbar a.btn:hover {
+    background-color: #D9D9D9;
+    color: #4F4F4F;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* Navbar End */
+
+/* Hero */
+.hero, .contact-us {
+    background: hsla(180, 14%, 97%, 1);
+    background: linear-gradient(315deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    background: -moz-linear-gradient(315deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    background: -webkit-linear-gradient(315deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F9F9", endColorstr="#4F4F4F", GradientType=1 );
+}
+
+a.hero-cta, .submit-form-btn {
+    background-color: #4F4F4F;
+    color: #F7F9F9;
+}
+
+a.hero-cta:hover, .submit-form-btn:hover {
+    background-color: #D9D9D9;
+    color: #4F4F4F;
+}
+/* Hero End */
+
+/* Services */
+.services {
+    background: hsla(180, 14%, 97%, 1);
+    background: linear-gradient(45deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    background: -moz-linear-gradient(45deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    background: -webkit-linear-gradient(45deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F9F9", endColorstr="#4F4F4F", GradientType=1 );
+}
+
+.card {
+    background-color: #f7f9f9;
+    border: none;
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #4f4f4f;
+    padding: 10px;
+    align-content: center;
+    justify-items: center;
+}
+
+.icon-big {
+    font-size: 40px;
+    color: #F7F9F9;
+}
+
+.card-title {
+    color: #1c1c1c;
+}
+/* Services End */
+
+/* Contact Us */
+.form-control:focus {
+    border-color: #4F4F4F;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 124, 124, 0.6);
+}
+/* Contact Us End */
+
+/* Footer */
+footer {
+    background: hsla(180, 14%, 97%, 1);
+    background: linear-gradient(45deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    background: -moz-linear-gradient(45deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    background: -webkit-linear-gradient(45deg, hsla(180, 14%, 97%, 1) 60%, hsla(0, 0%, 31%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7F9F9", endColorstr="#4F4F4F", GradientType=1 );
+}
+/* Footer End */
+
